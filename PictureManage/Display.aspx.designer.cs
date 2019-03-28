@@ -10,7 +10,7 @@
 namespace PictureManage {
     
     
-    public partial class _Default {
+    public partial class Display {
         
         /// <summary>
         /// Table1 控制項。
@@ -22,15 +22,6 @@ namespace PictureManage {
         protected global::System.Web.UI.WebControls.Table Table1;
         
         /// <summary>
-        /// ButtonUpload 控制項。
-        /// </summary>
-        /// <remarks>
-        /// 自動產生的欄位。
-        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonUpload;
-        
-        /// <summary>
         /// ButtonDisplay 控制項。
         /// </summary>
         /// <remarks>
@@ -38,5 +29,23 @@ namespace PictureManage {
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonDisplay;
+        
+        /// <summary>
+        /// ButtonBack 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonBack;
+        
+        /// <summary>
+        /// GridView1 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }
