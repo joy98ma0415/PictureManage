@@ -48,7 +48,7 @@
         <p class="textAlign" style="color: #008000">
             <asp:Button ID="ButtonDisplay" runat="server" Font-Names="Comic Sans MS" Font-Size="18px" OnClick="ButtonDisplay_Click" Text="Display Image" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="ButtonBack" runat="server" Font-Names="Comic Sans MS" Font-Size="18px" OnClick="ButtonBack_Click" Text="Back DefaultPage" />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">Go Back</asp:HyperLink>
         </p>
         <p class="textAlign" style="color: #008000">&nbsp;</p>
     </div>

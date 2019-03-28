@@ -29,10 +29,5 @@ namespace PictureManage
             GridView1.DataSource = dr;
             GridView1.DataBind();
         }
-
-        protected void ButtonBack_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Default.aspx");
-        }
     }
 }
